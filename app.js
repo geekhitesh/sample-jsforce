@@ -8,7 +8,7 @@ var conn = new jsforce.Connection({
     // you can change loginUrl to connect to sandbox or prerelease env.
     loginUrl : 'https://test.salesforce.com',
   });
-  const username="";
+  const username="sample";
   const password="";
   conn.login(username, password, function(err, userInfo) {
     if (err) { return console.error(err); }
